@@ -59,25 +59,6 @@ Tip (Arduino IDE folder prompt):
 - Fuel drains over time; collect Fuel drops to refill
 - HUD: top-left = score, top-right = distance in Km (X.YKm)
 
-## Git Quickstart
-From PowerShell in the project folder:
-
-```bash
-cd "E:\@ Valut\Arduino\Game - BattleStream\BattleStream"
-git init
-git add .
-git commit -m "Initial commit: BattleStream Arduino Nano game"
-git branch -M main
-git remote add origin https://github.com/USERNAME/REPO_NAME.git
-git push -u origin main
-```
-
-If needed, configure Git identity:
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
-
 ## License
 MIT — see `LICENSE`.
 
