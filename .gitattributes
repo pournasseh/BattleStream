@@ -1,0 +1,30 @@
+* text=auto
+
+# Ensure consistent LF endings for source files
+*.ino text eol=lf
+*.c   text eol=lf
+*.cpp text eol=lf
+*.h   text eol=lf
+*.hpp text eol=lf
+*.S   text eol=lf
+
+# Docs
+*.md  text eol=lf
+
+# Normalize text files; let Git handle CRLF/LF per platform
+* text=auto
+
+# Treat common binary assets as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.bmp binary
+*.zip binary
+*.7z binary
+*.pdf binary
+
+# Arduino sketches are text
+*.ino text
+
+

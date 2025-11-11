@@ -1,0 +1,63 @@
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+## Arduino/Build artifacts
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+## PlatformIO (if used later)
+.pio/
+
+## Logs and misc
+*.log
+*.tmp
+*.bak
+~$*
+
+# Arduino IDE build artifacts
+build/
+*.ino.cpp
+*.hex
+*.elf
+*.eep
+*.map
+*.d
+*.o
+*.obj
+*.a
+
+# PlatformIO (if used later)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE/editor junk
+.vscode/
+.vs/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives and temp
+*.log
+*.tmp
+*.bak
+*.orig
+*~
+._*
+
+
